@@ -32,15 +32,13 @@ Put two most expensive items to basket
     click element               //*[@id="products"]/div[2]/div/div/div[2]/div/div[2]/form/button
     wait until page contains    Přidáno do košíku
     click element               //*[@id="cboxClose"]
-    sleep                       2s
+    sleep                       3s
 
 Show basket
 
-    click element               //*[@id="header"]/div/div[1]/div[2]/a/span[2]
-
+    click element        //*[@id="header"]/div/div[1]/div[2]/a/span[2]
     #Sleep for manual verify of basket
     sleep                       10s
-
 
 Closing browser
 
